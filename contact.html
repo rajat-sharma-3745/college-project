@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/utils.css">
+      <link rel="stylesheet" href="css/contact.css">
+      <link rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body class="" id="body">
+      <!-- top banner for clg logo,name and email -->
+      <div class="top-banner">
+            <div class="max-width mx-auto flex justify-between top-banner-container">
+                  <div class="clg-logo flex items-center">
+                        <img src="img/logo.svg" alt="" class="inverted">
+                        <div class="logo-text">
+                              <h2>University of India</h2>
+                        </div>
+                  </div>
+                  <div class="clg-info flex items-center " id="clginfo">
+
+                        <div class="email-logo">
+                              <a href="mailto:abc@gmail.com"> <i class="fa-solid fa-2x fa-square-envelope "
+                                          id="mail"></i></a>
+                        </div>
+                        <div class="email">
+
+                              <h4>E-mail</h4>
+                              <!-- <p>principalgpgcbilaspur@gmail.com</p> -->
+                        </div>
+                        <div class="phone-logo">
+                              <a href="tel:99999999999"> <i class="fa-solid  fa-phone " id="phone"></i></a>
+                        </div>
+                        <div class="Phone">
+
+                              <h4>Phone</h4>
+                              <!-- <p>principalgpgcbilaspur@gmail.com</p> -->
+                        </div>
+                  </div>
+                  <a href="#" class="clginfo-toggle" id="clginfo-toggle">
+                        <i class="fa-solid fa-id-badge"></i>
+                  </a>
+            </div>
+      </div>
+      <!-- header for navlinks -->
+      <header id="header">
+            <div class="flex justify-between max-width mx-auto">
+                  <a href="#" class="nav-toggle" id="nav-toggle"> <i class="fa-solid  fa-bars"></i></a>
+                  <div class="navlinks " id="navlinks">
+                        <ul class="flex ">
+                              <li> <a href="/"> Home</a> </li>
+                              <li> <a href="/about.html"> About</a> </li>
+                              <li> <a href="/courses.html">Courses</a> </li>
+                              <li> <a href="/gallery.html">Gallery</a> </li>
+                              <li> <a href="/facilities.html">Facilities</a> </li>
+                              <li> <a href="/contact.html">Contact</a> </li>
+                        </ul>
+                  </div>
+                  <div class="theme flex" id="theme">
+
+                        <h4>Theme</h4>
+                        <a href="#"> <i class="fa-sharp fa-solid fa-circle-half-stroke" id="dark"></i></a>
+                  </div>
+            </div>
+      </header>
+
+      <section class="contact-section ">
+            <div class="max-width mx-auto">
+                  <div class="contact-content ">
+                        <h2 class="text-center py-1 ">We'd love to hear from you</h2>
+                        <p class="text-center ">Whether you have a question about courses, pricing, or anything else, our
+                              team is always
+                              there to answer all your queries</p>
+                  </div>
+                  <div class="contact-container flex flex-rev   items-center ">
+                        <div class="contact-info">
+                              <div class="contact-info-box flex  items-center">
+                                    <div class="contact-icon flex  items-center justify-center">
+                                          <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                    <div class="contact-text">
+                                          <h3>Address</h3>
+                                          <p>5598 Bosco Stream <br> California </p>
+                                    </div>
+                              </div>
+                              <div class="contact-info-box flex  items-center">
+                                    <div class="contact-icon flex  items-center justify-center">
+                                          <i class="fa-solid  fa-phone " id="phone"></i>
+                                    </div>
+                                    <div class="contact-text">
+                                          <h3>Phone</h3>
+                                          <p>428-257-0320</p>
+                                    </div>
+                              </div>
+                              <div class="contact-info-box flex items-center ">
+                                    <div class="contact-icon contact-icon-mail flex items-center justify-center">
+                                          <i class=" fa-solid fa-paper-plane"></i>
+                                    </div>
+                                    <div class="contact-text">
+                                          <h3>E-mail</h3>
+                                          <p>cyrus.hauck@gmail.com</p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="contact-form">
+                              <h2>Send Message</h2>
+                              <form action="https://formspree.io/f/mknajvbd" method="POST" id="mycontactform" onsubmit="formreset()" >
+                                    <p>
+                                          <label for="fullname">Full Name</label>
+                                          <input type="text" id="fullname" placeholder="Enter your name " name="Name">
+
+                                    </p>
+                                    <p>
+                                          <label for="email">Your Email</label>
+                                          <input type="email" id="email" placeholder="Enter your email " name="Email">
+
+                                    </p>
+                                    <p>
+                                          <label for="Message">Message</label>
+                                          <textarea name="Message" id="Message" placeholder="Your message" rows="3" name="Message"></textarea>
+
+                                    </p>
+                                    <p>
+                                         <button type="submit" class="primary-button" >Send</button>
+                                    </p>
+
+                              </form>
+                        </div>
+                  </div>
+            </div>
+      </section>
+
+
+
+
+
+      <!-- <footer>
+            <div class="max-width mx-auto flex justify-center items-center">
+                  <h4 class=" py-1 items-center text-center text-bold">Copyright &copy; abc.com|ALL RIGHTS RESERVED.
+                  </h4>
+            </div>
+      </footer> -->
+
+      <script src="https://kit.fontawesome.com/23ed0aa629.js" crossorigin="anonymous"></script>
+      <script src="js/main.js"></script>
+</body>
+
+</html>
