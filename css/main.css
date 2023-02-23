@@ -239,6 +239,7 @@ header {
 }
 .section4{
       margin-top: 20px;
+      overflow: hidden;
 }
 .facilities-container{
       background-color:var(--facilities-bg);
@@ -321,4 +322,36 @@ header {
 }
 .cta-div p{
       color: white;
+}
+
+
+.top-banner,#header,.contact-section,.section1,.section2,.section3,.section5,.testimonials,.cta-section,.aboutus,.undergraduate,.postgraduate,.self-finance,.section4,footer,.hrline,.gallery-container{
+      display: none ;
+}
+.loader{
+      height: 100vh;
+      width: 100vw;
+      background-color: var(--bg);
+      overflow: hidden;
+      position: absolute;
+}
+.loader>div{
+      height: 100px;
+      width: 100px;
+      border: 15px solid #dddd;
+      border-top-color: orange;
+      border-radius: 50%;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      animation: spin 1.5s infinite linear;
+}
+@keyframes spin {
+      100%{
+            transform: rotate(360deg);
+      }
+      
 }

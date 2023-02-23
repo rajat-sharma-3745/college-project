@@ -10,9 +10,16 @@
       <link rel="stylesheet" href="css/utils.css">
       <link rel="stylesheet" href="css/about.css">
       <link rel="stylesheet" href="css/mobile.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body class="" id="body">
+      <div class="loader" id="loader">
+            <div>
+      
+            </div>
+          </div>
       <!-- top banner for clg logo,name and email -->
       <div class="top-banner">
             <div class="max-width mx-auto flex justify-between top-banner-container">
@@ -97,11 +104,13 @@
                   </div>
                   <h1 class="text-center text-bold py-1">Vision and Mission</h1>
                   <div class="vision-container flex items-center my-2">
-                        <div class="vision">
+                        <div class="vision"data-aos="fade-left"
+                        >
                            <h2 class="text-center ">Our Vision</h2>
                            <p class="text-center">College provides students with quality educational experiences and support services that lead to the successful completion of degrees, transfer, certificates, career/technical education and basic skills proficiency.</p>
                         </div>
-                        <div class="mission">
+                        <div class="mission" data-aos="fade-right"
+                        >
                            <h2 class="text-center ">Our Mission</h2>
                            <p class="text-center">Our College is driven to provide excellent educational opportunities that are responsive to the needs of our students, and empower them to meet and exceed challenges as active participants in shaping the future of our world.</p>
                         </div>
@@ -117,6 +126,25 @@
             </div>
       </footer>
 
+
+
+
+      <script>
+            $(window).on('load',function(){
+                  $(".loader").fadeOut(1500)
+                  $(".top-banner").fadeIn(2600)
+                  $("#header").fadeIn(2600)
+                  $(".aboutus").fadeIn(2600)
+                  $("footer").fadeIn(2600)
+  })
+      
+      </script>
+
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
       <script src="https://kit.fontawesome.com/23ed0aa629.js" crossorigin="anonymous"></script>
       <script src="js/main.js"></script>
 </body>
