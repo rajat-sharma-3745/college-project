@@ -16,7 +16,7 @@
 }
 .vision-container{
       gap: 5%;
-
+overflow: hidden;
       justify-content: space-evenly;
 }
 .vision.mission {
@@ -30,12 +30,12 @@
 .vision{
       background-color: var(--about-bg);
       padding: 15px 5px;
-      box-shadow: 0 0 7px gray;
+      box-shadow: 0 0 8px gray;
 }
 .mission{
       background-color: var(--about-bg);
       padding: 15px 5px;
-      box-shadow: 0 0 7px gray;
+      box-shadow: 0 0 8px gray;
 
 }
 @media screen and (max-width:1300px){

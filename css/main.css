@@ -281,9 +281,9 @@ header {
       gap: 3px;
       padding: 10px 20px;
 }
-/* .testimonials{
-     
-} */
+.testimonials{
+ overflow: hidden;    
+}
 .testimonials-div{
       background-color: var(--course-card-bg);
 }
