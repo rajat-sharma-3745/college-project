@@ -271,11 +271,13 @@ header {
 } 
 .section5{
 margin-bottom: 25px;
+
 }
 .achievements{
       flex-wrap: wrap;
       justify-content: space-around;
       background-color: var(--course-card-bg);
+      padding: 15px 0;
 }
 .achieve-col{
       width: 20%;
