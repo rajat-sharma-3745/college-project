@@ -9,11 +9,17 @@ const mail=document.getElementById("mail")
 const phone=document.getElementById("phone")
 const inverted= document.getElementsByClassName("inverted")
 
+//sticky navbar
+window.addEventListener('scroll',()=>{
+      header.classList.toggle('sticky',window.scrollY>0)
+})
 
-dark.addEventListener("click", () => {
+
+
+dark.addEventListener("click", (e) => {
       if (!body.classList.contains("dark")) {
             body.classList.add("dark")
-            
+            e.preventDefault();
             // mail.classList.add("inverttt")
             // phone.classList.add("inverttt")
             // dark.classList.add("fa-regular fa-moon")
@@ -26,6 +32,7 @@ dark.addEventListener("click", () => {
       }
       else {
             body.classList.remove("dark")
+            e.preventDefault();
             // dark.classList.remove("fa-regular fa-moon")
             // dark.classList.add("fa-solid fa-moon")
             for (var i = 0, len = inverted.length; i < len; i++) {

@@ -26,6 +26,7 @@
 }
 
 .dark {
+      transition: 0.3s linear;
       --primary-text-color: white;
       --secondary-text-color: white;
       --bg: #2b2d31;
@@ -88,7 +89,18 @@ body {
 header {
       padding-block: 1rem;
       background: linear-gradient(to right, orange, pink);
+      position: sticky;
+     
+      width: 100%;
+     
       /*  rgb(251, 167, 11) */
+}
+.sticky{
+      /* transition: 0.8s ease-in;
+      margin-bottom: 10px; */
+      top: 0;
+      left: 0;
+      z-index: 10;
 }
 
 
