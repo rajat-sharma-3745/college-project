@@ -64,34 +64,34 @@ body {
 .clg-logo {
       /* width: 40vw;    */
       gap: 10px;
-      padding-left: 20px;
+      padding-left: 15px;
 }
-
 .clg-logo img {
-      padding-bottom: 5px;
-      width: 42px;
+      /* padding-bottom: 5px; */
+      padding-top: 11px;
+      width: 55px;
 }
 
 .clg-info {
       padding-top: 9px;
       padding-right: 10px;
-      gap: 5px;
+      gap:7px;
 }
 
 .theme {
-      gap: 6px;
+      gap: 7px;
 }
 
-.theme h4 {
-      padding-top: 1.3px;
-}
+/* .theme h4 {
+      padding-top: 1.1px;
+} */
 
 header {
       padding-block: 1rem;
       background: linear-gradient(to right, orange, pink);
       position: sticky;
      
-      width: 100%;
+      /* width: 100%; */
      
       /*  rgb(251, 167, 11) */
 }
@@ -100,7 +100,7 @@ header {
       margin-bottom: 10px; */
       top: 0;
       left: 0;
-      z-index: 10;
+      z-index: 2;
 }
 
 
@@ -113,6 +113,13 @@ header {
 .navlinks ul li a:hover {
       background-color: rgb(220, 145, 6);
       color: white;
+
+}
+.navlinks ul li a{
+
+      font-weight: 600;
+      font-size: large;
+padding-inline: 5px;
 
 }
 

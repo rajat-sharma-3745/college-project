@@ -52,11 +52,11 @@ p{
       line-height: 1.2rem;
 }
 a{   
-      padding-inline: 5px;
+      /* padding-inline: 5px; */
       text-decoration: none;
       font-family: var(--font2);
-      font-weight: 700;
-      font-size: large;
+      /* font-weight: 700; */
+      /* font-size: large; */
       color: var(--primary-text-color);
       border-radius: 9px;
       /* color: black; */

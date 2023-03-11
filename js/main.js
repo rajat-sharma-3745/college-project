@@ -14,8 +14,15 @@ window.addEventListener('scroll',()=>{
       header.classList.toggle('sticky',window.scrollY>0)
 })
 
+//close navlinks when we clicks outside of it 
+window.addEventListener('mouseup',(event)=>{
+      if(event.target!='togglebutton' && event.target!='navlinks')
+      {
+            navlinks.classList.remove('active');   
+      }
+})
 
-
+//dark mode
 dark.addEventListener("click", (e) => {
       if (!body.classList.contains("dark")) {
             body.classList.add("dark")

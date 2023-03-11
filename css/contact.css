@@ -4,6 +4,7 @@
       padding: 44px 0;
       color: white !important;
       /* height: 83.1vh; */
+      /* overflow: hidden; */
 }
 
 .contact-section p {
@@ -73,10 +74,13 @@ textarea {
       background-color: var(--accent-color-dark);
 }
 
+
 .contact-info-box {
-      gap: 3%;
+      gap: 4%;
       padding: 23px 0;
+      word-break: break-all;  
 }
+
 
 .contact-text h3 {
       color: aqua;
@@ -127,4 +131,8 @@ textarea,label{
       margin-top: 4px;
      
 }
+/* .max-width{
+      max-width: 96vw;
+} */
+
 }
