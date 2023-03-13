@@ -6,6 +6,12 @@
       .top-banner-container {
             margin-block: 11px;
       }
+      .email p {
+            display: none;
+      }
+      .Phone p {
+            display: none;
+      }
 }
 
 @media screen and (max-width:1024px) {

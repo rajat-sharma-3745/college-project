@@ -15,7 +15,7 @@ window.addEventListener('scroll',()=>{
 })
 
 //close navlinks when we clicks outside of it 
-window.addEventListener('mouseup',(event)=>{
+window.addEventListener('mouseover',(event)=>{
       if(event.target!='togglebutton' && event.target!='navlinks')
       {
             navlinks.classList.remove('active');   
