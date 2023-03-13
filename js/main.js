@@ -50,14 +50,15 @@ dark.addEventListener("click", (e) => {
 })
 
 // menu
-togglebutton.addEventListener('click', () =>{
+togglebutton.addEventListener('click', (e) =>{
      if(! navlinks.classList.contains('active'))
      {
-        
+        e.preventDefault();
       navlinks.classList.add('active');
      }
       else
       {
+            e.preventDefault();
       navlinks.classList.remove('active');
       }
 })
