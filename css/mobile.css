@@ -353,8 +353,13 @@
             padding-block: 30px;
             /* width: 550px; */
       } 
+      .clg-logo{
+            padding-left: 0.7px;
+      }
+
 } 
 @media screen and (max-width:390px) {
+
       .clginfo-toggle {
            
             margin-top: 5.5%;
@@ -367,6 +372,6 @@
             width: 250px;
       }
       .logo-text h2{
-            font-size:1.012rem ;
+            font-size:1.069rem ;
       }
 }

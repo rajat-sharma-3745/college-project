@@ -67,7 +67,7 @@ togglebutton.addEventListener('click', (e) =>{
      if(!clginfo.classList.contains('active1'))
      {
       clginfo.classList.add('active1');
-      header.style.marginTop="49px"
+      header.style.marginTop="45px"
       
      }
       else
